@@ -44,7 +44,11 @@ a, a:focus {
     border-color: rgb(0, 0, 0);
     border-width: 0.2rem;
     outline: none;
+}
 
+.vk {
+    background-image: url("../vk.png");
+}
 
 .buttons {
     display: block;
