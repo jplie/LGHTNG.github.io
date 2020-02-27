@@ -50,6 +50,9 @@ a, a:focus {
     background-image: url("../vk.png");
 }
 
+.steam {background-image: url("../steam.png");
+}
+
 .buttons {
     display: block;
     margin-left: auto;
