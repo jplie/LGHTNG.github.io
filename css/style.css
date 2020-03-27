@@ -60,6 +60,8 @@ a, a:focus {
     background-image: url("../qiwi.png");
 }
 
+.telegram {background-image: url("../telegram.png")};
+
 }
 
 .buttons {
