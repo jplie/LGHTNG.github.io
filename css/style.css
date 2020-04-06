@@ -12,14 +12,14 @@ a, a:focus {
 }
 
 .frontimage {
-	font-size: 1.4rem;
+	font-size: 1.3rem;
 	color: #000000;
-	line-height: 2.5rem;
+	line-height: 2.3rem;
 	letter-spacing: .1px;
 	padding: 2.5rem 3rem;
-	border-radius: 6rem;
-    background-color: rgb(255, 255, 255);
-    width: 45rem;
+	border-radius: 4.5rem;
+    background-color: rgb(255, 255, 255, 0.76);
+    width: 35rem;
     margin-bottom: 2rem;
 }
 
@@ -47,22 +47,32 @@ a, a:focus {
 }
 
 .vk {
+    background-color: rgb(255, 255, 255, 0.7);
     background-image: url("../vk.png");
 }
 
-.steam {background-image: url("../steam.png");
+ 
+.steam {
+  background-color: rgb(255, 255, 255, 0.7);
+    
+  background-image: url("../steam.png")
 }
 
-.battlenet {background-image: url("../battlenet.png");
-}
+.battlenet {
+    background-color: rgb(255, 255, 255, 0.7); 
+    
+    background-image: url("../battlenet.png");}
 
-.qiwi {
+
+ .qiwi {  background-color: rgb(255, 255, 255, 0.7); 
+    
     background-image: url("../qiwi.png");
 }
 
-.telegram {background-image: url("../telegram.png")};
+.telegram {
+  background-color: rgb(255, 255, 255, 0.7); 
+background-image:url("../telegram.png")};
 
-}
 
 .buttons {
     display: block;
