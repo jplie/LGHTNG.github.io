@@ -67,7 +67,8 @@ a, a:focus {
     background-image: url("../qiwi.png");
 }
 
-.github { background-color: rgb(255, 255, 255, 0.7); background-image:url("../github.png");
+.github { 
+    background-color: rgb(255, 255, 255, 0.7); background-image:url("../github.png");
 }
 
 .telegram {
