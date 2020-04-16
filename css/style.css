@@ -50,7 +50,6 @@ a, a:focus {
     background-color: rgb(255, 255, 255, 0.7);
     background-image: url("../vk.png");
 }
-
  
 .steam {
   background-color: rgb(255, 255, 255, 0.7);
@@ -63,16 +62,16 @@ a, a:focus {
     
     background-image: url("../battlenet.png");}
 
-
  .qiwi {  background-color: rgb(255, 255, 255, 0.7); 
     
     background-image: url("../qiwi.png");
 }
 
+.github {background-color: rgb(255, 255, 255, 0.7); background-image:url("../github.png")}
+
 .telegram {
   background-color: rgb(255, 255, 255, 0.7); 
 background-image:url("../telegram.png")};
-
 
 .buttons {
     display: block;
