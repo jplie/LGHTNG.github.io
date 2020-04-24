@@ -1,4 +1,4 @@
 ## Welcome to my GitHub project
-lightnights.github.io
+lightn.date
 For contact vk: @lignig
       telegram: @LigNig
