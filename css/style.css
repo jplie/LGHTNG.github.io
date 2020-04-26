@@ -63,11 +63,11 @@ a, a:focus {
     background-image: url("../icons/battlenet.png");}
 
  .qiwi {  background-color: rgb(255, 255, 255, 0.7); 
-        background-image: url("../icons/qiwi.png");
-}
+     background-image: url("../icons/qiwi.png"); }
+
 
 .github { 
-    background-color: rgb(255, 255, 255, 0.7); background-image:url("../icons/github.png");
+    background-color: rgb(255, 255, 255, 0.7); background-image: url("../icons/github.png");
 }
 
 .telegram {
