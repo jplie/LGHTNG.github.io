@@ -48,32 +48,31 @@ a, a:focus {
 
 .vk {
     background-color: rgb(255, 255, 255, 0.7);
-    background-image: url("../vk.png");
+    background-image: url("../icons/vk.png");
 }
  
 .steam {
   background-color: rgb(255, 255, 255, 0.7);
     
-  background-image: url("../steam.png")
+  background-image: url("../icons/steam.png")
 }
 
 .battlenet {
     background-color: rgb(255, 255, 255, 0.7); 
     
-    background-image: url("../battlenet.png");}
+    background-image: url("../icons/battlenet.png");}
 
  .qiwi {  background-color: rgb(255, 255, 255, 0.7); 
-    
-    background-image: url("../qiwi.png");
+        background-image: url("../icons/qiwi.png");
 }
 
 .github { 
-    background-color: rgb(255, 255, 255, 0.7); background-image:url("../github.png");
+    background-color: rgb(255, 255, 255, 0.7); background-image:url("../icons/qiwi.png");
 }
 
 .telegram {
   background-color: rgb(255, 255, 255, 0.7); 
-background-image:url("../telegram.png");
+background-image:url("../icons/telegram.png");
 }
 
 .buttons {
