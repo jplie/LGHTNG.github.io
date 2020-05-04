@@ -59,7 +59,8 @@ a, a:focus {
 
 .battlenet {
     background-color: rgb(255, 255, 255, 0.7); 
-    
+    text-align: right;
+    background-position:left;
     background-image: url("../icons/battlenet.png");}
 
  .qiwi {  background-color: rgb(255, 255, 255, 0.7); 
