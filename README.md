@@ -6,4 +6,4 @@ For contact vk: @lignig
 
                   telegram: @LigNight
                   
-[![Netlify Status](httphtt
+[![Netlify Status](htt
