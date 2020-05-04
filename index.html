@@ -8,10 +8,33 @@
         <link rel="icon" type="image/png" href="icon.png">
         <title>LightNight- Welcome</title>
         <link rel="stylesheet" type="text/css" href="./css/style.css">
-        
+<!-- Preloader script START -->
+        <script>
+            document.body.onload = function(){
+                setTimeout( function(){
+                    let preloader = document.getElementById('preloader');
+                    preloader.style.display = "none";
+                }, 1000);
+            };
+        </script>
+<!-- Preloader script END -->
     </head>
     
     <body>
+        <!-- Preloader START -->
+
+        <div class="preloaderBackground" id="preloader">
+            <div class="circ">
+                <div class="load">Loading . . . </div>
+                <div class="hands"></div>
+                <div class="body"></div>
+                <div class="head">
+                    <div class="eye"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Preloader END -->
     
         <div class="front">
             <img src="./icons/Mirai.png" width="250" height="250">
