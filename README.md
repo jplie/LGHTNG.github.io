@@ -2,8 +2,8 @@
 
 My site: lightn.date
 
-For contact vk: @lignig
+For contact vk: @lightnru
 
-                  telegram: @LigNight
+                  telegram: @lightnru
                   
 
