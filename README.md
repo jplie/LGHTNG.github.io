@@ -1,9 +1,9 @@
 ## Welcome to my GitHub project
 
-My site: lightn.date
+My site: lightn.ru
 
-For contact vk: @lightnru
+For contact vk: @lghtngs
 
-                  telegram: @lightnru
+                  telegram: @lghtng
                   
 
