@@ -8,6 +8,7 @@
 <meta content='true' name='HandheldFriendly'/>
 <meta content='width' name='MobileOptimized'/>
 <meta content='yes' name='apple-mobile-web-app-capable'/>
+        <script src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
@@ -87,6 +88,26 @@
             <a href="https://github.com/LightNights">
                 <button class="action github"> My GitHub 
                 </button>
+                <script src="js/jSnow.js"></script>
+
+<script>
+
+	$(document).ready(function() {
+
+		$("body").jSnow({
+			vSize: 834,
+			flakes: 40,
+			flakeColor: ["#fff"],
+			flakeMinSize: 8,
+			flakeMaxSize: 12,
+			fallingSpeedMin: 1,
+			fallingSpeedMax: 2,
+			flakeCode:["&bull;"]
+		});
+
+	});
+
+</script>
                 
  </div>  
                 
