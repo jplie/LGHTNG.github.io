@@ -130,12 +130,12 @@ a, a:focus {
 .frontimage {
 	font-size: 1.3rem;
 	color: #000000;
-	line-height: 2.3rem;
+	line-height: 2rem;
 	letter-spacing: .1px;
 	padding: 2.5rem 3rem;
-	border-radius: 4.5rem;
+	border-radius: 3rem;
     background-color: rgb(255, 255, 255, 0.76);
-    width: 35rem;
+    width: 25rem;
     margin-bottom: 2rem;
 }
 
