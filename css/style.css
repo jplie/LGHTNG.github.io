@@ -230,7 +230,7 @@ background-image:url("../icons/telegram.png");
 #snow {
 	width: 100%;
 	height: 100%;
-	background-image: url("../snow/snow_1.png"), url("../snow/snow_2.png"), url("../snow/snow_3.png");
+	background-image: url("../snow/snow_2.png"), url("../snow/snow_3.png");
 	-webkit-animation: snow 20s linear infinite;
 	-moz-animation: snow 20s linear infinite;
 	-ms-animation: snow 20s linear infinite;
