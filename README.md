@@ -2,9 +2,8 @@
 
 # My site: lightn.ru
 
-# For contact:    
-                  vk: @lghtngs
+# For contact:     vk: @lghtngs
 
-                  telegram: @lghtng
+                   telegram: @lghtng
                   
 
