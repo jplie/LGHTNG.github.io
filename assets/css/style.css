@@ -164,7 +164,7 @@ a, a:focus {
 
 .vk {
     background-color: rgb(255, 255, 255, 0.7);
-    background-image: url("../icons/vk.png");
+    background-image: url(../icons/vk.png);
 }
  
 .steam {
