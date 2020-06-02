@@ -13,7 +13,7 @@ body {
     position: absolute;
     left: 0;
     top: 0;
-    background-color: #111;
+    background-color: #696969;
     width: 100%;
     height: 100%;
     z-index: 99998;
@@ -128,27 +128,27 @@ a, a:focus {
 }
 
 .frontimage {
-	font-size: 1.3rem;
+	font-size: 1.5rem;
 	color: #000000cd;
 	line-height: 2rem;
 	letter-spacing: .1px;
 	padding: 2.5rem 3rem;
-	border-radius: 3rem;
+	border-radius: 5rem;
     background-color: rgb(255, 255, 255, 0.76);
-    width: 25rem;
+    width: 30rem;
     margin-bottom: 2rem;
 }
 
 .action {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 	color: #000000;
 	line-height: 1.25rem;
 	letter-spacing: .1px;
 	padding: 1.25rem 1.5rem;
 	border-radius: 6rem;
     background-color: rgb(255, 255, 255);
-    width: 15rem;
-    text-align: left;
+    width: 16rem;
+    text-align:justify;
     border-color: rgb(255, 255, 255);
     border-width: 0.2rem;
     background-repeat: no-repeat;
