@@ -18,14 +18,14 @@
         <title>lghtng- Welcome >_> </title>
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 <!-- Preloader script START -->
-        <script>
-            document.body.onload = function(){
-                setTimeout( function(5){
-                    let preloader = document.getElementById('preloader');
-                    preloader.style.display = "none";
-                }, 0);
-            };
-        </script>
+<script>
+    document.body.onload = function(){
+        setTimeout( function(){
+            let preloader = document.getElementById('preloader');
+            preloader.style.display = "none";
+        }, 1000);
+    };
+</script>
 <!-- Preloader script END -->
     </head>
     
@@ -33,16 +33,8 @@
         <!-- Preloader START -->
 
         <div class="preloaderBackground" id="preloader">
-            <div class="circ">
-                <div class="load">Loading . . . </div> </div>
-                <div class="hands"></div>
-                <div class="body"></div>
-                <div class="head">
-                    <div class="eye"></div>
-                </div>
-            </div>
+        <div class="preloader"></div>
         </div>
-
         <!-- Preloader END -->
     
         <div class="front">
