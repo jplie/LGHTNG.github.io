@@ -14,65 +14,105 @@ body {
     position: absolute;
     left: 0;
     top: 0;
-    background-color: #111116;
+    background-color: #3a3a3a;
+    font-family: sans-serif;
     width: 100%;
     height: 100%;
     z-index: 99998;
 }
 
-.preloader {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  max-width: 14.6rem;
-  margin-top: 7.3rem;
-  margin-bottom: 7.3rem;
-}
-.preloader:before, .preloader:after {
-  content: "";
+.loading--inner {
   position: absolute;
-  border-radius: 50%;
-  animation-duration: 1.8s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-  filter: drop-shadow(0 0 0.7555555556rem rgba(255, 255, 255, 0.75));
+  left: 50%;
+  top: 50%;
+  width: 110px;
+  height: 30px;
+  transform: translate(-50%, -50%);
 }
-.preloader:before {
-  width: 100%;
-  padding-bottom: 100%;
-  box-shadow: inset 0 0 0 1.7rem #fff;
-  animation-name: pulsA;
+.loading--inner:after {
+  position: absolute;
+  content: '';
+  height: 1px;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.2);
 }
-.preloader:after {
-  width: calc(100% - 1.7rem*2);
-  padding-bottom: calc(100% - 1.7rem*2);
-  box-shadow: 0 0 0 0 #fff;
-  animation-name: pulsB;
+.loading--inner .loading--box {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: rgba(255, 255, 255, 0.4);
+  opacity: 1;
+}
+.loading--inner .loading--box.dbl-width {
+  width: 22px;
+}
+.loading--inner .loading--box.upper {
+  height: 18px;
+}
+.loading--inner .loading--box.hang {
+  height: 8px;
+}
+.loading--inner .loading--box.sink {
+  height: 5px;
+  width: 2px;
+}
+.loading--inner .loading--box.dbl-height {
+  height: 30px;
+}
+.loading--inner .loading--box-animate {
+  animation: loading--box-animation 3s infinite ease-in-out;
+}
+.loading--inner .loading--text {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  position: absolute;
+  line-height: 1.6em;
+  top: 100%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  animation: loading--text-animation 2s infinite;
 }
 
-@keyframes pulsA {
+@keyframes loading--text-animation {
   0% {
-    box-shadow: inset 0 0 0 1.7rem #fff;
     opacity: 1;
   }
-  50%, 100% {
-    box-shadow: inset 0 0 0 0 #fff;
-    opacity: 0;
-  }
-}
-@keyframes pulsB {
-  0%, 50% {
-    box-shadow: 0 0 0 0 #fff;
+  50% {
     opacity: 0;
   }
   100% {
-    box-shadow: 0 0 0 1.7rem #fff;
     opacity: 1;
   }
 }
-
+@keyframes loading--box-animation {
+  0% {
+    opacity: 0;
+    transform: translate(-20px, 0);
+  }
+  10% {
+    opacity: 0;
+    transform: translate(-20px, 0);
+  }
+  25% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+  75% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+  90% {
+    opacity: 0;
+    transform: translate(20px, 0);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(20px, 0);
+  }
+}
 
 /* Preloader END */
 

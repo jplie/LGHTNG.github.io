@@ -21,7 +21,7 @@
 <script>
     document.body.onload = function(){
         setTimeout( function(){
-            let preloader = document.getElementById('preloader');
+            let preloader = document.getElementById('loading');
             preloader.style.display = "none";
         }, 1000);
     };
@@ -32,8 +32,22 @@
     <body>
         <!-- Preloader START -->
 
-        <div class="preloaderBackground" id="preloader">
-        <div class="preloader"></div>
+        <div class="preloaderBackground" id="loading">
+        <div class="loading"></div>
+        <div id="loading">
+  <div id="loading--inner" class="loading--inner">
+    <div class="loading--box upper loading--box-animate" style="left: 20px; bottom: 0; animation-delay: .7s"></div>
+    <div class="loading--box loading--box-animate" style="left: 32px; bottom: 0; animation-delay: .6s"></div>
+    <div class="loading--box dbl-width loading--box-animate" style="left: 44px; bottom: 0; animation-delay: .5s"></div>
+    <div class="loading--box sink loading--box-animate" style="left: 50px; bottom: 11px; animation-delay: .5s"></div>
+    <div class="loading--box hang loading--box-animate" style="left: 44px; top: 0; animation-delay: .4s"></div>
+    <div class="loading--box hang loading--box-animate" style="left: 56px; top: 0; animation-delay: .3s"></div>
+    <div class="loading--box loading--box-animate" style="left: 68px; bottom: 0; animation-delay: .1s"></div>
+    <div class="loading--box upper loading--box-animate" style="left: 68px; top: 0; animation-delay: .1s"></div>
+    <div class="loading--box dbl-height loading--box-animate" style="left: 80px; bottom: 0;"></div>
+    <div class="loading--text">LADE</div>
+  </div>
+</div>
         </div>
         <!-- Preloader END -->
     
